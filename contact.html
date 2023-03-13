@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="./assets/img/icon/icon-mountain.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style-nui-ba-den.css">
+    <link rel="stylesheet" href="./assets/css/style-about.css">
+    <link rel="stylesheet" href="./assets/css/style-contact.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="./index.html">Trang Chủ</a></li>
+                <li>
+                    <a href="#1">
+                        Địa danh
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+
+                    <ul class="subnav subnav-dia-danh">
+                        <li><a href="./dia-danh/index.html">Núi Bà Đen</a></li>
+                        <li><a href="./dia-danh/toa-thanh-tay-ninh.html">Tòa Thánh</a></li>
+                        <li><a href="./dia-danh/trung-uong-cuc-mien-nam.html">Trung Ương Cục Miền Nam</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#1">
+                        Ẩm thực
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="subnav subnav-am-thuc">
+                        <li><a href="./am-thuc/index.html">Bánh tráng phơi sương</a></li>
+                        <li><a href="./am-thuc/bo-to-tay-ninh.html">Bò tơ Tây Ninh</a></li>
+                        <li><a href="./am-thuc/oc-nui-tay-ninh.html">Ốc núi</a></li>
+                    </ul>
+                </li>
+                <li><a href="./about.html">Về chúng tôi</a></li>
+                <li><a href="./contact.html">Liên Hệ</a></li>
+            </ul>
+
+            <div id="mobile-menu" class="mobile-menu-bar">
+                <i class="bar-icon fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+
+        </div>
+
+        <div id="content">
+            <div class="container">
+                <form action="http://tranvanhung.fitstu.net/hufi/thiet-ke-web/form.php" method="post" class="about-form-ct">
+                    <h2>CONTACT US</h2>
+                    <p>Name</p>
+                    <input type="text" placeholder="Enter Name" name="name" required>
+                    <p>Email</p>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <p>Phone</p>
+                    <input type="tel" placeholder="Enter Phone" name="phone" required onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="11">
+                    <p>Subject</p>
+                    <input type="text" placeholder="Enter Subject" name="subject" required>
+                    <p>Message</p>
+                    <textarea name="" cols="30" rows="10"></textarea>
+                    <div class="div-submit">
+                        <input type="submit" name="submit" value="Submit">
+                    </div>
+
+                    <!-- <table class="table">
+                        <tr>
+                            <td>
+                                <h2>CONTACT US</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Name</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                    <input type="text" placeholder="Enter Name" name="name" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table> -->
+                </form>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="container-footer">
+                <div class="col col-two">
+                    <p><i class="fa-solid fa-id-card"></i>MSSV: 2001190895</p>
+                    <p><i class="fa-solid fa-user-graduate"></i>Họ & tên: Nguyễn Đức Trung</p>
+                    <p><i class="fa-solid fa-chalkboard-user"></i>Lớp: 10DHTH8</p>
+                    <p><i class="fa-sharp fa-solid fa-business-time"></i>Ca học: Chiều T6(7-11)</p>
+                </div>
+                <div class="col col-two">
+                    <div class="icon-click-footer">
+                        <a href="https://www.facebook.com/socchuottmoon/">
+                            <i class="icon-fb fa-brands fa-facebook"></i>
+                            Facebook
+                        </a>
+                    </div>
+                    <div class="icon-click-footer">
+                        <a href="#">
+                            <i class="icon-ig fa-brands fa-square-instagram"></i>
+                            Instagram
+                        </a>
+                    </div>
+                    <div class="icon-click-footer">
+                        <a href="#">
+                            <i class="icon-ytb fa-brands fa-youtube"></i>
+                            Youtube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- JS SLIDER -->
+    <script src="./assets/js/jsstyle.js"></script>
+    <!-- END JS SLIDER -->
+</body>
+
+</html>

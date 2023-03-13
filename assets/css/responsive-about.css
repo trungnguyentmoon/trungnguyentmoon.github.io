@@ -1,0 +1,22 @@
+@media (max-width:740px){
+    .col-two{
+        width: 100%;
+    }
+
+    #content .col-right {
+        height: 100%;
+    }
+
+    #content .music-content {
+        padding-top: 50px;
+    }
+
+    #content .music-content .iframe    
+    {
+        width: 220px;
+    }
+    #content .music-content iframe{
+        width: 220px;
+        height: 420px;
+    }
+}

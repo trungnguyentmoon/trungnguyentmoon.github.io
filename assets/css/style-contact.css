@@ -1,0 +1,48 @@
+#content{
+    min-height: 80vh;
+}
+
+#content .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.5);
+}
+
+#content .about-form-ct{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content h2{
+    text-align: center;
+}
+
+.container input:not([type='submit']), .container textarea{
+    font-size: 16px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#content .div-submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#content input[type='submit']{
+    margin-top: 5px;
+    border: none;
+    color: #fff;
+    background: #08d7fc;
+    padding: 10px 20px;
+}
+
+#content input[type='submit']:hover{
+    background: #fc0808;
+    cursor: pointer;
+}
